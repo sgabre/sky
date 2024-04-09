@@ -1,0 +1,11 @@
+add_executable(DMS_UnitTesting DMSTests.c)
+add_executable(Radians_UnitTesting RadiansTests.c)
+add_executable(Degres_UnitTesting DegresTests.c)
+
+target_link_libraries(DMS_UnitTesting utils Unity)
+target_link_libraries(Radians_UnitTesting utils Unity)
+target_link_libraries(Degres_UnitTesting utils Unity)
+
+add_test(TestSequence_Utils DMS_UnitTesting)
+add_test(TestSequence_Utils Radians_UnitTesting)
+add_test(TestSequence_Utils Degres_UnitTesting)

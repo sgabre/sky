@@ -40,6 +40,8 @@ The structure of the sky project is as follows:
 |  \- (module_a sources)
 |- Intercept
 |  \- (module_a sources)
+|- utils
+|  \- (module_a sources)
 \- test
 \- (Unit-Tests sources)
 
@@ -69,7 +71,7 @@ Its geodetic latitude, longitude, and altitude above mean sea level are specifie
 
 Observations of a satellite are made by a radar at this site at a specified date and universal time. 
 
-The radar determines $\rho$, $\dot{\rho}$, $A_z$ , $\dot{A_z}$, $E$ , $\dot{E}$from its tracking and doppler capability.
+The radar determines Range ($\rho$), Range Rate ($\dot{\rho}$), Azimuth ($A_z$), Azimuth Rate ($\dot{A_z}$), Elevation ($E$), Elevation Rate ($\dot{E}$) from its tracking and doppler capability.
 
 Note:
 
@@ -111,8 +113,10 @@ Neglect the atmosphere and assume impulsive velocity change from the launch site
 
 The radar tracking data on a target satellite, location of the tracking site, time of radar observation, and the location of an interceptor launch site is given. 
 
+Utils Module
+-----------------
 
-
+The Utils Module regroupe all the common function used by other modules 
 
 
 
