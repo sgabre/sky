@@ -70,6 +70,10 @@ Observations of a satellite are made by a radar at this site at a specified date
 
 The radar determines p, p, EI, I, Az, A from its tracking and doppler capability.
 
+Note:
+
+The Track module compute also the Horizontal components (Azimuth, Elevation) when the Right Ascention and the declinaison of a start is given.
+
 Predict Module
 -----------------
 
@@ -105,3 +109,13 @@ The Intercept Module computes the impulsive velocity change required for both in
 Neglect the atmosphere and assume impulsive velocity change from the launch site and at the target. 
 
 The radar tracking data on a target satellite, location of the tracking site, time of radar observation, and the location of an interceptor launch site is given. 
+
+$$\vec{H} = \vec{R} \times \vec{V}$$
+
+$$\rho$$
+
+$$\cdot{\rho}$$
+
+$$\alpha$$
+
+$$\cdot{\alpha}$$
