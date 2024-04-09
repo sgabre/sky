@@ -68,7 +68,7 @@ Its geodetic latitude, longitude, and altitude above mean sea level are specifie
 
 Observations of a satellite are made by a radar at this site at a specified date and universal time. 
 
-The radar determines p, p, EI, I, Az, A from its tracking and doppler capability.
+The radar determines $$\rho$$, $$\dot{\rho}$$, $$A_z$$ , $$\dot{A_z}$$, $$E$$ , $$\dot{E}$$from its tracking and doppler capability.
 
 Note:
 
@@ -110,12 +110,10 @@ Neglect the atmosphere and assume impulsive velocity change from the launch site
 
 The radar tracking data on a target satellite, location of the tracking site, time of radar observation, and the location of an interceptor launch site is given. 
 
-$$\vec{H} = \vec{R} \times \vec{V}$$
 
-$$\rho$$
 
-$$\cdot{\rho}$$
 
-$$\alpha$$
 
-$$\cdot{\alpha}$$
+
+
+
