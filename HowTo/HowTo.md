@@ -16,21 +16,19 @@ git config --global init.default branch main
 
 # How to build 
 
-For the test
-cmake -DTARGET_GROUP=test .. 
-make
+1. build the software system in debug mode
 
-For the debug
 cmake -DTARGET_GROUP=debug .. 
 make
 
-For the release
+2. build the software system in release mode
+
 cmake -DTARGET_GROUP=release .. 
 make
 
 # How to run the test 
 
-1. build the test binaries
+1. build the software system in testing mode
 
 cmake -DTARGET_GROUP=test .. 
 make
