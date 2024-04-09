@@ -14,6 +14,7 @@ The Sky project described in this article is hosted on my [github](https://git-s
 Tools used in this project can be found under the following URLs:
 
 * [git] (https://git-scm.com/)
+* [Git Credential Manager] (https://github.com/git-ecosystem/git-credential-manager)
 * [CMake] (https://cmake.org/)
 * [Unity] (https://www.throwtheswitch.org/unity/)
 * [CMock] (https://www.throwtheswitch.org/cmock)
@@ -68,18 +69,18 @@ Its geodetic latitude, longitude, and altitude above mean sea level are specifie
 
 Observations of a satellite are made by a radar at this site at a specified date and universal time. 
 
-The radar determines $$\rho$$, $$\dot{\rho}$$, $$A_z$$ , $$\dot{A_z}$$, $$E$$ , $$\dot{E}$$from its tracking and doppler capability.
+The radar determines $\rho$, $\dot{\rho}$, $A_z$ , $\dot{A_z}$, $E$ , $\dot{E}$from its tracking and doppler capability.
 
 Note:
 
-The Track module compute also the Horizontal components (Azimuth, Elevation) when the Right Ascention and the declinaison of a start is given.
+The Track module compute also the Horizontal components (Azimuth, Elevation) when the Right Ascension and the declination of a start is given.
 
-Predict Module
+Orbit Module
 -----------------
 
-The Predict Module find orbital parameters from given vector position and velocity.
-
-For a number of unidentified space objects the three components of vector position and velocity are generated from radar observations 
+The Orbit Module find orbital parameters from given 
+- vector position and velocity,
+- Apoasis & Periapsis.
 
 The Predict Module find:
 
