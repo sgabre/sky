@@ -23,6 +23,8 @@ Tools used in this project can be found under the following URLs:
 The architecture in this project is base ont the Appendix D of the Fundamentals of Astrodynamics - Bate, Mueller, and White
 
 The structure of the sky project is as follows:
+
+```
 .
 |- main
 |  \- (entry point of the main application)
@@ -40,8 +42,9 @@ The structure of the sky project is as follows:
 |  \- (module_a sources)
 |- Intercept
 |  \- (module_a sources)
-\- test
-\- (Unit-Tests sources)
+|- test
+|  \- (Unit-Tests sources)
+```
 
 The Site, Track, Predict, Kepler, Gauss, Intercept module contains a library of shared code. 
 
@@ -117,4 +120,9 @@ The radar tracking data on a target satellite, location of the tracking site, ti
 
 
 
-
+``` shell
+function test
+{
+	echo "notice the blank line before this function?"
+}
+```
