@@ -29,19 +29,19 @@ The structure of the sky project is as follows:
 |- main
 |  \- (entry point of the main application)
 |- LSTime
-|  \- (module_a sources)
+|  \- (Software Component sources)
 |- Site
-|  \- (module_a sources)
+|  \- (Software Component sources)
 |- Track
-|  \- (module_a sources)
+|  \- (Software Component sources)
 |- Predict
-|  \- (module_a sources)
+|  \- (Software Component sources)
 |- Kepler
-|  \- (module_a sources)
+|  \- (Software Component sources)
 |- Gauss
-|  \- (module_a sources)
+|  \- (Software Component sources)
 |- Intercept
-|  \- (module_a sources)
+|  \- (Software Component sources)
 |- test
 |  \- (Unit-Tests sources)
 ```
