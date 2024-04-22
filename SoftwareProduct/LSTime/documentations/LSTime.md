@@ -19,9 +19,9 @@ $$ \theta_{g} = \theta_{go} +  \theta_{c} \cdot 2 \pi \cdot D$$
 
 $$ \theta = \theta_{g} +  \lambda $$
 
-* $$\theta_{g}$$, is the Greenwich sidereal time, in radian
-* $$\theta$$, is the Local sidereal time, in radian
-* $$\lambda $$, is the geographic longitude, in radian
+* $\theta_{g}$, is the Greenwich sidereal time, in radian
+* $\theta$, is the Local sidereal time, in radian
+* $\lambda $, is the geographic longitude, in radian
 
 # Usage
 
