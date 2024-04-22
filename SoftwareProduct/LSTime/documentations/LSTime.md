@@ -27,10 +27,10 @@ $$ \theta = \theta_{g} +  \lambda $$
 
 Demonstrates how to use this information in a command-line tool (**LSTime**):
 
-``` ```
+```
 
 $>LSTime --LNG  <ValueInRadians> --date <DD/MM/YYYY> --time <HH:MM:SS>
 	Local Sidereal Time: 0.940583 @ LNG: 0 @ 22/04/2024 14:31:10
 	
-``` ```
+```
 Here, it's calculating the local sidereal time for a specific geographic longitude (0 radians) and date/time (22nd April 2024, 14:31:10).
