@@ -1,0 +1,3 @@
+/Users/sgabre/git/sky/SoftwareProduct/LSTime/build/CMakeFiles/LSTime.dir
+/Users/sgabre/git/sky/SoftwareProduct/LSTime/build/CMakeFiles/edit_cache.dir
+/Users/sgabre/git/sky/SoftwareProduct/LSTime/build/CMakeFiles/rebuild_cache.dir
