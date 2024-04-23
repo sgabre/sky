@@ -13,11 +13,11 @@ The Sky project described in this article is hosted on my [github](https://git-s
 
 Tools used in this project can be found under the following URLs:
 
-* [git] (https://git-scm.com/)
-* [Git Credential Manager] (https://github.com/git-ecosystem/git-credential-manager)
-* [CMake] (https://cmake.org/)
-* [Unity] (https://www.throwtheswitch.org/unity/)
-* [CMock] (https://www.throwtheswitch.org/cmock)
+* [git](https://git-scm.com/)
+* [Git Credential Manager](https://github.com/git-ecosystem/git-credential-manager)
+* [CMake](https://cmake.org/)
+* [Unity](https://www.throwtheswitch.org/unity/)
+* [CMock](https://www.throwtheswitch.org/cmock)
 * [Ceedling](https://www.throwtheswitch.org/ceedling)
 * [Exception](https://www.throwtheswitch.org/cexception)
 * Compilators
