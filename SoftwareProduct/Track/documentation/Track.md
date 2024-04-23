@@ -28,7 +28,7 @@ Object
 
 The local hour angle (LHA) of an object in the observer's sky is
 
-$$ H = \theta - \alphaD$$
+$$ H = \theta - \alpha$$
 
 where,
 
