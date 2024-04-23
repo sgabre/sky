@@ -18,6 +18,8 @@ Tools used in this project can be found under the following URLs:
 * [CMake] (https://cmake.org/)
 * [Unity] (https://www.throwtheswitch.org/unity/)
 * [CMock] (https://www.throwtheswitch.org/cmock)
+* [Ceedling](https://www.throwtheswitch.org/ceedling)
+* [Exception](https://www.throwtheswitch.org/cexception)
 * Compilators
 
 The architecture in this project is base ont the Appendix D of the Fundamentals of Astrodynamics - Bate, Mueller, and White
