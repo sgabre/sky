@@ -9,7 +9,7 @@ Table of Contents
 Prerequisites
 ---------------
 
-The Sky project described in this article is hosted on my [github](https://git-scm.com/) page. 
+The Crazy Uncle Lab project described in this article is hosted on my [github](https://git-scm.com/) page. 
 
 Tools used in this project can be found under the following URLs:
 
