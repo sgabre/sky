@@ -44,10 +44,12 @@ $$ h = \arcsin{\left(\sin{(\delta)} \cdot \sin{(\phi)} - \cos{(\delta)}\cdot \co
 
 where,
 
-$ \phi $, is the geographic latitude of the observation site, in radians
 
 * $\phi$, is the geographic latitude of the observation site, in radians
-* 
+* $\delta$, is the celestial Déclinaison of the celesital object site, in radians
+* $H$, is the local hours angle, in radians
+
+  
 ## Calcul de l’Azimuth:
 
 $$ \alpha = \arccos{\left ( \frac{\sin{(\delta)}-\sin{(\phi)}\cdot\sin{(h)}}{\cos{(\phi)} \cdot\cos{(h)}}\right )} $$
