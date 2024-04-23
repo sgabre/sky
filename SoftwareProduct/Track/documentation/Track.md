@@ -1,5 +1,19 @@
 # Track
 
+The Site/Track Module compute the geocentric-equatorial components of position and velocity of the radar site (RS and VS), and of the satellite (R and V).
+
+The geographic location of a radar tracking site on the surface of the earth is known.
+
+Its geodetic latitude, longitude, and altitude above mean sea level are specified.
+
+Observations of a satellite are made by a radar at this site at a specified date and universal time.
+
+The radar determines ,  from its tracking and doppler capability.
+
+Note:
+
+The Track module compute also the Horizontal components (Azimuth, Elevation) when the Right Ascension and the declination of a start is given.
+
 # Usage
 
 Start Tracker 
