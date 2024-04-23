@@ -1,3 +1,4 @@
+
 # Track
 
 From a Celestial Coordinate object (e.g Start), the Track module compute the Horizontal coordinate (Azimuth & Elevation).
@@ -47,6 +48,36 @@ $$ \alpha = \arccos{\left ( \frac{\sin{(\delta)}-\sin{(\phi)}\cdot\sin{(h)}}{\co
 
 
 $$ \sin{(\alpha)} =  \frac{\cos{(\delta)}\cdot\sin{(H)}}{\cos{(h)}} $$
+
+
+## Draft
+
+Notations utilisées :
+
+Latitude = lat
+Longitude = longi
+Déclinaison = dec
+Ascension droite = asc
+Azimut =az
+Hauteur = hau
+Angle Horaire de l'étoile = H = angle - asc + longi
+angleH = angle lié a l'heure sidérale.
+angleT = angle lié a l'heure.
+angle = angleH + angleT
+Calcul de la Hauteur :
+
+sinushauteur = sin(dec) * sin(lat) - cos(dec) * cos(lat) * cos(H)
+La hauteur est un angle compris entre -90° et +90°, la hauteur s'obtient donc simplement par :
+hau = arcsin (sinushauteur)
+Calcul de l'Azimut :
+
+cosazimuth = ( sin(dec) - sin(lat) * sin(hau) ) / ( cos(lat) * cos(hau) )
+L'azimut est un angle compris entre 0 et 360°, nous avons donc besoin d'un calcul intermédiaire :
+sinazimuth = ( cos(dec) * sin (H) ) / cos(hau)
+Si sinazimuth > 0 alors :
+az = + arccos(cosazimuth)
+Sinon :
+az = - arccos(cosazimuth)
 
 
 
