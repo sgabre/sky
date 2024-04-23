@@ -43,10 +43,10 @@ $$ h = \arcsin{\left(\sin{(\delta)} \cdot \sin{(\phi)} - \cos{(\delta)}\cdot \co
 
 ## Calcul de l’Azimuth:
 
-\alpha = \arccos{\left ( \frac{\sin{(\delta)}-\sin{(\phi)}\cdot\sin{(h)}}{\cos{(\phi)} \cdot\cos{(h)}}\right )}
+$$ \alpha = \arccos{\left ( \frac{\sin{(\delta)}-\sin{(\phi)}\cdot\sin{(h)}}{\cos{(\phi)} \cdot\cos{(h)}}\right )} $$
 
 
-\sin{(\alpha)} =  \frac{\cos{(\delta)}\cdot\sin{(H)}}{\cos{(h)}}
+$$ \sin{(\alpha)} =  \frac{\cos{(\delta)}\cdot\sin{(H)}}{\cos{(h)}} $$
 
 
 
