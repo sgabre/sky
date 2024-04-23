@@ -8,7 +8,7 @@ Its geodetic latitude, longitude, and altitude above mean sea level are specifie
 
 Observations of a satellite are made by a radar at this site at a specified date and universal time.
 
-The radar determines ,  from its tracking and doppler capability.
+The radar determines $\rho$, $\dot{\rho}$, $A_z$ , $\dot{A_z}$, $E$ , $\dot{E}$ from its tracking and doppler capability.
 
 Note:
 
