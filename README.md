@@ -56,7 +56,7 @@ The external directory contains the sources from external projects or other git 
 
 The main directory contains the production code and the test directory contains the source of the unit-tests.
 
-LSTime Module
+[LSTime Module](https://github.com/sgabre/CrazyUncleLab/blob/main/SoftwareProduct/LSTime/documentations/LSTime.md)
 -----------------
 
 The LSTime Module compute the local @ Greenwich sidereal time 
