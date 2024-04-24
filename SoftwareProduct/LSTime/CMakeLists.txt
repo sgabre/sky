@@ -52,9 +52,9 @@ if(BUILD_COMPONENT_TEST STREQUAL "ON")
 endif()
 
 
-#if (MSVC)
-#	set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
-#endif()
+if (MSVC)
+	set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
+endif()
 
 #add_library(LSTime SHARED)
 #target_include_directories(LSTime PRIVATE "${PROJECT_SOURCE_DIR}")
