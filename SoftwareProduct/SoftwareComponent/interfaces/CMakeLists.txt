@@ -1,0 +1,11 @@
+## CMakeLists @ SoftwareComponent/interfaces Directory 
+#target_sources( ${SOFWARE_COMPONENT_NAME}
+#        PUBLIC FILE_SET HEADERS 
+#    BASE_DIRS ${PROJECT_SOURCE_DIR}
+#    FILES ${SOFWARE_COMPONENT_NAME}_API.h)
+    
+target_sources( ${SOFWARE_COMPONENT_NAME}
+    PRIVATE ${SOFWARE_COMPONENT_NAME}_API.h
+    PUBLIC FILE_SET HEADERS 
+    BASE_DIRS ${PROJECT_SOURCE_DIR})
+        
