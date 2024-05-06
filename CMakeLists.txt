@@ -1,10 +1,17 @@
-#CMakelists.txt @ nucleo-cmake root directory
 cmake_minimum_required(VERSION 3.22)
+
+#
+# This file is generated only once,
+# and is not re-generated if converter is called multiple times.
+#
+# User is free to modify the file as much as necessary
+#
 
 # Setup compiler settings
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 set(CMAKE_C_EXTENSIONS ON)
+
 
 # Define the build type
 if(NOT CMAKE_BUILD_TYPE)
@@ -12,12 +19,10 @@ if(NOT CMAKE_BUILD_TYPE)
 endif()
 
 # Set the project name
-set(SOFWARE_COMPONENT_NAME nucleo-cmake)
-string(TOUPPER ${SOFWARE_COMPONENT_NAME} UPPER_CASE_SOFWARE_COMPONENT_NAME)
+set(CMAKE_PROJECT_NAME nucleo-cmake)
 
 # Include toolchain file
-include("cmake/gcc-arm-none-eabi.cmake")
-#include("cmake/arm-none-eabi-gcc.cmake")
+include("cmake/arm-none-eabi-gcc.cmake")
 
 # Enable compile command to ease indexing with e.g. clangd
 set(CMAKE_EXPORT_COMPILE_COMMANDS TRUE)
@@ -26,10 +31,8 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS TRUE)
 enable_language(C ASM)
 
 # Core project settings
-project(${SOFWARE_COMPONENT_NAME} LANGUAGES C VERSION 1.0.0)
-
-# Version
-#configure_file(./cmake/ModuleVersion.h.in ${SOFWARE_COMPONENT_NAME}Version.h)
+project(${CMAKE_PROJECT_NAME})
+message("Build type: " ${CMAKE_BUILD_TYPE})
 
 # Create an executable object type
 add_executable(${CMAKE_PROJECT_NAME})

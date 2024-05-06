@@ -13,7 +13,7 @@ target_compile_definitions(stm32cubemx INTERFACE
 )
 
 target_include_directories(stm32cubemx INTERFACE
-    ../../Core/Inc
+    ../../eApplication/Inc
     ../../Drivers/STM32F4xx_HAL_Driver/Inc
     ../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
     ../../Drivers/CMSIS/Device/ST/STM32F4xx/Include
@@ -21,9 +21,9 @@ target_include_directories(stm32cubemx INTERFACE
 )
 
 target_sources(stm32cubemx INTERFACE
-    ../../Core/Src/main.c
-    ../../Core/Src/stm32f4xx_it.c
-    ../../Core/Src/stm32f4xx_hal_msp.c
+    ../../eApplication/Src/main.c
+    ../../eApplication/Src/stm32f4xx_it.c
+    ../../eApplication/Src/stm32f4xx_hal_msp.c
     ../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
     ../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
     ../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
@@ -40,10 +40,10 @@ target_sources(stm32cubemx INTERFACE
     ../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
     ../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
     ../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
-    ../../Core/Src/system_stm32f4xx.c
-    ../../Core/Src/sysmem.c
-    ../../Core/Src/syscalls.c
-    ../../Core/Startup/startup_stm32f401xe.s
+    ../../eApplication/Src/system_stm32f4xx.c
+    ../../eApplication/Src/sysmem.c
+    ../../eApplication/Src/syscalls.c
+    ../../eApplication/startup/startup_stm32f401xe.s
 )
 
 target_link_directories(stm32cubemx INTERFACE
