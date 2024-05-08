@@ -97,19 +97,16 @@ int main(void)
   /* Infinite loop */
   RetargetInit(&huart2);
   printf("System setup completed\r\n");
-  //On Mac OS X Terminal: $> screen /dev/tty.usbmodem11103 115200
-
   uint32_t timestamp = HAL_GetTick();
   while (1)
-  {
-	  if( (HAL_GetTick() -  timestamp) > 1500 )
-	  	  {
-		  	  printf("Increment...\r\n");
-	  		  timestamp = HAL_GetTick();
-	  		  HAL_GPIO_TogglePin( LD2_GPIO_Port, LD2_Pin);
-	  	  }
-  }
-
+    {
+      if( (HAL_GetTick() -  timestamp) > 500 )
+        {
+          timestamp = HAL_GetTick();
+          HAL_GPIO_TogglePin( LD2_GPIO_Port, LD2_Pin);
+          printf("Inc...\r\n");
+        }
+    }
 }
 
 /**
